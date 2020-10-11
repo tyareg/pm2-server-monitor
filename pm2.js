@@ -121,12 +121,12 @@ class pm2API{
 }
 
 
-//module.exports.pm2API = pm2API;
-const result = new pm2API();
+module.exports.pm2API = pm2API;
+// const result = new pm2API();
 
-result.list().then(function(data){
-    console.log(data);
-});
+// result.list().then(function(data){
+//     console.log(data);
+// });
 
 // result.restart('index').then(function(data){
 //     console.log(data);
